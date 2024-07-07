@@ -1,4 +1,4 @@
-//fundamental js
+//List tipedata
 
 let variable = 1
 const konstanta = 2
