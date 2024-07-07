@@ -16,3 +16,7 @@ switch (language) {
 }
 
 console.log(greeting);
+
+/* output
+Bonjour!
+*/
