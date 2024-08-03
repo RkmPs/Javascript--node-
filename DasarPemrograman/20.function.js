@@ -32,8 +32,8 @@ const sayName = (name) => {
   
 // arrow function 1 line
 
-const multiply = (a, b) => a * b;
-console.log(multiply(3, 4));
+const multiply2 = (a, b) => a * b;
+console.log(multiply2(3, 4));
 
 // rekursif
 
