@@ -1,5 +1,5 @@
 /* eslint-disable linebreak-style */
-const { addNoteHandler } = require('./handler');
+const { addNoteHandler, getAllNotesHandler } = require('./handler');
 
 const routes = [
 
@@ -10,6 +10,14 @@ const routes = [
       addNoteHandler;
     },
   },
+
+  {
+    method: 'GET',
+    path: '/notes',
+    handler: () => {
+      getAllNotesHandler;
+    }
+  }
 
 ];
 
